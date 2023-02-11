@@ -473,9 +473,9 @@
                 <key>LogModules</key>
                 <string>*</string>
                 <key>SysReport</key>
-                <false/>
+                <true/>
                 <key>Target</key>
-                <integer>115</integer>
+                <integer>67</integer>
             </dict>
             <key>Entries</key>
             <array/>
