@@ -107,13 +107,6 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AwASWQ==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <string>01000000</string>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
@@ -347,6 +340,24 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>DebugEnhancer.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.7</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/DebugEnhancer</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
             <array/>
@@ -507,7 +518,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -590,7 +601,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 alcid=5 agdpmod=pikera</string>
+                    <string>-v keepsyms=1 debug=0x100 alcid=5 agdpmod=pikera -dbgenhdbg</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
