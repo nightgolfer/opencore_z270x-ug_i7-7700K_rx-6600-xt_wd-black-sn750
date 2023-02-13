@@ -587,16 +587,6 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
-                    <key>#csr-active-config (SIP enabled)</key>
-                    <data>AAAAAA==</data>
-                    <key>#csr-active-config (macOS 10.13)</key>
-                    <data>/wMAAA==</data>
-                    <key>#csr-active-config (macOS 10.14/10.15)</key>
-                    <data>/wcAAA==</data>
-                    <key>#csr-active-config (macOS 11)</key>
-                    <data>ZwgAAA==</data>
-                    <key>#csr-active-config (macOS 12)</key>
-                    <data>7w8AAA==</data>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
@@ -604,7 +594,7 @@
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
-                    <string>da:9</string>
+                    <string></string>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -629,33 +619,7 @@
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
-            <dict>
-                <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-                <array>
-                    <string>EFILoginHiDPI</string>
-                    <string>EFIBluetoothDelay</string>
-                    <string>LocationServicesEnabled</string>
-                    <string>SystemAudioVolume</string>
-                    <string>SystemAudioVolumeDB</string>
-                    <string>SystemAudioVolumeSaved</string>
-                    <string>bluetoothActiveControllerInfo</string>
-                    <string>bluetoothInternalControllerInfo</string>
-                    <string>flagstate</string>
-                    <string>fmm-computer-name</string>
-                    <string>fmm-mobileme-token-FMM</string>
-                    <string>fmm-mobileme-token-FMM-BridgeHasAccount</string>
-                    <string>nvda_drv</string>
-                    <string>prev-lang:kbd</string>
-                </array>
-                <key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
-                <array>
-                    <string>Boot0080</string>
-                    <string>Boot0081</string>
-                    <string>Boot0082</string>
-                    <string>BootNext</string>
-                    <string>BootOrder</string>
-                </array>
-            </dict>
+            <dict/>
             <key>WriteFlash</key>
             <true/>
         </dict>
